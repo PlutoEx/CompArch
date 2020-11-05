@@ -1,0 +1,67 @@
+# Reading pref.tcl
+# do ex2_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {ex2.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:48:18 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." ex2.vo 
+# -- Compiling module ex2
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	ex2
+# End time: 20:48:18 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab10/ex2 {D:/1_ASUS/Desktop/Lab10/ex2/ex2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:48:18 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab10/ex2" D:/1_ASUS/Desktop/Lab10/ex2/ex2.v 
+# -- Compiling module ex2
+# 
+# Top level modules:
+# 	ex2
+# End time: 20:48:19 on Nov 05,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab10/ex2 {D:/1_ASUS/Desktop/Lab10/ex2/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:48:19 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab10/ex2" D:/1_ASUS/Desktop/Lab10/ex2/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 20:48:19 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" testbench 
+# Start time: 20:48:19 on Nov 05,2020
+# Loading work.testbench
+# Loading work.ex2
+# 
+# do D:/1_ASUS/Desktop/Lab10/ex2/Tcl_script1.tcl
+# add wave sim:/testbench/*
+# run -all
+# a= 0 b = 1 carry_in = 0 sum = 0 carry_out = 1
+# a= 0 b = 1 carry_in = 1 sum = 1 carry_out = 0
+# a= 1 b = 0 carry_in = 1 sum = 1 carry_out = 0
+# a= 1 b = 0 carry_in = 0 sum = 0 carry_out = 1
+# a= 0 b = 0 carry_in = 0 sum = 0 carry_out = 0
+# a= 0 b = 0 carry_in = 1 sum = 0 carry_out = 1
+# a= 1 b = 1 carry_in = 1 sum = 1 carry_out = 1
+# a= 1 b = 1 carry_in = 0 sum = 1 carry_out = 0
+# wave zoom full
+# 0 ps
+# 37 ps
+# End time: 20:48:54 on Nov 05,2020, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0

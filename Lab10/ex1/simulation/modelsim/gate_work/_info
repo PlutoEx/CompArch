@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/1_ASUS/Desktop/Lab10/ex1/simulation/modelsim
+vex1
+Z1 !s110 1604586066
+!i10b 1
+!s100 Gc4[Y<H=7XiE`Jl]0QQYG2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IS:k?h=cWeTONB^2:H=?]Z3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604585254
+8D:/1_ASUS/Desktop/Lab10/ex1/ex1.v
+FD:/1_ASUS/Desktop/Lab10/ex1/ex1.v
+!i122 1
+L0 1 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1604586066.000000
+!s107 D:/1_ASUS/Desktop/Lab10/ex1/ex1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Desktop/Lab10/ex1|D:/1_ASUS/Desktop/Lab10/ex1/ex1.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab10/ex1
+Z8 tCvgOpt 0
+vhard_block
+!s110 1604586065
+!i10b 1
+!s100 c?ez6l5WnfzYJHMONZo4S2
+R2
+I8eW:TBGYEe74iDPWg_oBN3
+R3
+R0
+w1604586046
+8ex1.vo
+Fex1.vo
+!i122 0
+L0 267 45
+R4
+r1
+!s85 0
+31
+!s108 1604586065.000000
+!s107 ex1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ex1.vo|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+.
+R8
+vtestbench
+R1
+!i10b 1
+!s100 0W^XQNID[?L<<^m31V4Jb3
+R2
+Ib[>_Im=M3IVi;nF4LC5bV2
+R3
+R0
+w1604585709
+8D:/1_ASUS/Desktop/Lab10/ex1/testbench.v
+FD:/1_ASUS/Desktop/Lab10/ex1/testbench.v
+!i122 2
+L0 1 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/1_ASUS/Desktop/Lab10/ex1/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Desktop/Lab10/ex1|D:/1_ASUS/Desktop/Lab10/ex1/testbench.v|
+!i113 1
+R6
+R7
+R8

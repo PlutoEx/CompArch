@@ -1,0 +1,88 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  max10
+Quartus root          :  c:/intelfpga_lite/20.1/quartus/bin64/
+Quartus sim root      :  c:/intelfpga_lite/20.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  ex2.vo
+Sim SDF file          :  ex2__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/intelfpga_lite/20.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Probing transcript
+ModelSim-Altera Info: # Reading pref.tcl
+ModelSim-Altera Info: # do ex2_run_msim_gate_verilog.do
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+ModelSim-Altera Info: # vmap work gate_work 
+ModelSim-Altera Info: # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {ex2.vo}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 20:48:18 on Nov 05,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." ex2.vo 
+ModelSim-Altera Info: # -- Compiling module ex2
+ModelSim-Altera Info: # -- Compiling module hard_block
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	ex2
+ModelSim-Altera Info: # End time: 20:48:18 on Nov 05,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab10/ex2 {D:/1_ASUS/Desktop/Lab10/ex2/ex2.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 20:48:18 on Nov 05,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab10/ex2" D:/1_ASUS/Desktop/Lab10/ex2/ex2.v 
+ModelSim-Altera Info: # -- Compiling module ex2
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	ex2
+ModelSim-Altera Info: # End time: 20:48:19 on Nov 05,2020, Elapsed time: 0:00:01
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab10/ex2 {D:/1_ASUS/Desktop/Lab10/ex2/testbench.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 20:48:19 on Nov 05,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab10/ex2" D:/1_ASUS/Desktop/Lab10/ex2/testbench.v 
+ModelSim-Altera Info: # -- Compiling module testbench
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	testbench
+ModelSim-Altera Info: # End time: 20:48:19 on Nov 05,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  testbench
+ModelSim-Altera Info: # vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" testbench 
+ModelSim-Altera Info: # Start time: 20:48:19 on Nov 05,2020
+ModelSim-Altera Info: # Loading work.testbench
+ModelSim-Altera Info: # Loading work.ex2
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # do D:/1_ASUS/Desktop/Lab10/ex2/Tcl_script1.tcl
+ModelSim-Altera Info: # add wave sim:/testbench/*
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # a= 0 b = 1 carry_in = 0 sum = 0 carry_out = 1
+ModelSim-Altera Info: # a= 0 b = 1 carry_in = 1 sum = 1 carry_out = 0
+ModelSim-Altera Info: # a= 1 b = 0 carry_in = 1 sum = 1 carry_out = 0
+ModelSim-Altera Info: # a= 1 b = 0 carry_in = 0 sum = 0 carry_out = 1
+ModelSim-Altera Info: # a= 0 b = 0 carry_in = 0 sum = 0 carry_out = 0
+ModelSim-Altera Info: # a= 0 b = 0 carry_in = 1 sum = 0 carry_out = 1
+ModelSim-Altera Info: # a= 1 b = 1 carry_in = 1 sum = 1 carry_out = 1
+ModelSim-Altera Info: # a= 1 b = 1 carry_in = 0 sum = 1 carry_out = 0
+ModelSim-Altera Info: # wave zoom full
+ModelSim-Altera Info: # 0 ps
+ModelSim-Altera Info: # 37 ps
+ModelSim-Altera Info: # End time: 20:48:54 on Nov 05,2020, Elapsed time: 0:00:35
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+Info: NativeLink simulation flow was successful
