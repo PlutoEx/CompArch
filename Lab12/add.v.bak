@@ -1,0 +1,8 @@
+module add
+(
+	input [31:0] rt, rs, ans1
+);
+
+assign ans1 = rt + rs;
+
+endmodule

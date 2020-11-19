@@ -1,0 +1,8 @@
+module srl
+(
+	input [31:0] rt, shift, ans3
+);
+
+assign ans3 = rt >> shift;
+
+endmodule

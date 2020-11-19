@@ -1,0 +1,8 @@
+module sub
+(
+	input [31:0] rt, rs, ans2
+);
+
+assign ans2 = rt - rs;
+
+endmodule

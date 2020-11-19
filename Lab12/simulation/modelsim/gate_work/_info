@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/1_ASUS/Desktop/Lab12/simulation/modelsim
+vadd
+Z1 !s110 1605798737
+!i10b 1
+!s100 XB7]56I807bC5B[JWmLC]0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ImZ7XA2zJ0hgE:<BVHlJV92
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605797886
+8D:/1_ASUS/Desktop/Lab12/add.v
+FD:/1_ASUS/Desktop/Lab12/add.v
+!i122 3
+Z4 L0 1 9
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1605798737.000000
+!s107 D:/1_ASUS/Desktop/Lab12/add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Desktop/Lab12|D:/1_ASUS/Desktop/Lab12/add.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab12
+Z9 tCvgOpt 0
+valu_testbench
+!s110 1605798738
+!i10b 1
+!s100 RB<2:_Ac2AP5R>8bo@2XE1
+R2
+IGKkeNWBGzNXZX=E6dfRN41
+R3
+R0
+w1605793651
+8D:/1_ASUS/Desktop/Lab12/alu_testbench.v
+FD:/1_ASUS/Desktop/Lab12/alu_testbench.v
+!i122 6
+L0 1 47
+R5
+r1
+!s85 0
+31
+!s108 1605798738.000000
+!s107 D:/1_ASUS/Desktop/Lab12/alu_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Desktop/Lab12|D:/1_ASUS/Desktop/Lab12/alu_testbench.v|
+!i113 1
+R7
+R8
+R9
+vex1
+R1
+!i10b 1
+!s100 Pn8iCP=EEXJ;DfJ1b4WeK0
+R2
+I:`YhGOe:ledeOd^chY7Z52
+R3
+R0
+w1605798616
+8D:/1_ASUS/Desktop/Lab12/ex1.v
+FD:/1_ASUS/Desktop/Lab12/ex1.v
+!i122 1
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/1_ASUS/Desktop/Lab12/ex1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Desktop/Lab12|D:/1_ASUS/Desktop/Lab12/ex1.v|
+!i113 1
+R7
+R8
+R9
+vhard_block
+R1
+!i10b 1
+!s100 ]j<=i[`c9]9ROakRKz@L[1
+R2
+I4egN?zL]Z]0M86bhLO4e`1
+R3
+R0
+w1605798724
+8ex1.vo
+Fex1.vo
+!i122 0
+L0 1765 45
+R5
+r1
+!s85 0
+31
+!s108 1605798736.000000
+!s107 ex1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ex1.vo|
+!i113 1
+R7
+!s92 -vlog01compat -work work +incdir+.
+R9
+vmux
+R1
+!i10b 1
+!s100 Q<mR5=oOjOj6C@3ND@l^O1
+R2
+I<:`QTNY<BFU_0cRcW1_dI0
+R3
+R0
+w1605798116
+8D:/1_ASUS/Desktop/Lab12/mux.v
+FD:/1_ASUS/Desktop/Lab12/mux.v
+!i122 2
+L0 1 24
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/1_ASUS/Desktop/Lab12/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Desktop/Lab12|D:/1_ASUS/Desktop/Lab12/mux.v|
+!i113 1
+R7
+R8
+R9
+vsrl
+R1
+!i10b 1
+!s100 ]7?T?83=Rb`NB1P:hkgFS3
+R2
+I:1V5O87^z]gALHZOTAckW1
+R3
+R0
+w1605797825
+8D:/1_ASUS/Desktop/Lab12/srl.v
+FD:/1_ASUS/Desktop/Lab12/srl.v
+!i122 5
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/1_ASUS/Desktop/Lab12/srl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Desktop/Lab12|D:/1_ASUS/Desktop/Lab12/srl.v|
+!i113 1
+R7
+R8
+R9
+vsub
+R1
+!i10b 1
+!s100 LQQ6TJaMOG4R>Cf2O`Y:=0
+R2
+ILze[F>2E`QUS7GnHYM_0m3
+R3
+R0
+w1605798056
+8D:/1_ASUS/Desktop/Lab12/sub.v
+FD:/1_ASUS/Desktop/Lab12/sub.v
+!i122 4
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/1_ASUS/Desktop/Lab12/sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Desktop/Lab12|D:/1_ASUS/Desktop/Lab12/sub.v|
+!i113 1
+R7
+R8
+R9

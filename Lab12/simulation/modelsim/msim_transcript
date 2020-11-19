@@ -1,0 +1,103 @@
+# Reading pref.tcl
+# do ex1_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {ex1.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:12:16 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." ex1.vo 
+# -- Compiling module ex1
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	ex1
+# End time: 21:12:17 on Nov 19,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab12 {D:/1_ASUS/Desktop/Lab12/ex1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:12:17 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab12" D:/1_ASUS/Desktop/Lab12/ex1.v 
+# -- Compiling module ex1
+# 
+# Top level modules:
+# 	ex1
+# End time: 21:12:17 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab12 {D:/1_ASUS/Desktop/Lab12/mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:12:17 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab12" D:/1_ASUS/Desktop/Lab12/mux.v 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 21:12:17 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab12 {D:/1_ASUS/Desktop/Lab12/add.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:12:17 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab12" D:/1_ASUS/Desktop/Lab12/add.v 
+# -- Compiling module add
+# 
+# Top level modules:
+# 	add
+# End time: 21:12:17 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab12 {D:/1_ASUS/Desktop/Lab12/sub.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:12:17 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab12" D:/1_ASUS/Desktop/Lab12/sub.v 
+# -- Compiling module sub
+# 
+# Top level modules:
+# 	sub
+# End time: 21:12:17 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab12 {D:/1_ASUS/Desktop/Lab12/srl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:12:17 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab12" D:/1_ASUS/Desktop/Lab12/srl.v 
+# -- Compiling module srl
+# 
+# Top level modules:
+# 	srl
+# End time: 21:12:17 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/1_ASUS/Desktop/Lab12 {D:/1_ASUS/Desktop/Lab12/alu_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:12:18 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Desktop/Lab12" D:/1_ASUS/Desktop/Lab12/alu_testbench.v 
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 21:12:18 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  alu_testbench
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" alu_testbench 
+# Start time: 21:12:18 on Nov 19,2020
+# Loading work.alu_testbench
+# ** Error: (vsim-3033) Instantiation of 'alu' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_testbench File: D:/1_ASUS/Desktop/Lab12/alu_testbench.v Line: 11
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/fiftyfivenm
+#             D:/1_ASUS/Desktop/Lab12/simulation/modelsim/gate_work
+#             D:/1_ASUS/Desktop/Lab12/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ex1_run_msim_gate_verilog.do PAUSED at line 17
+# End time: 21:12:23 on Nov 19,2020, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 0
