@@ -1,0 +1,115 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  max10
+Quartus root          :  c:/intelfpga_lite/20.1/quartus/bin64/
+Quartus sim root      :  c:/intelfpga_lite/20.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  ex1.vo
+Sim SDF file          :  ex1__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/intelfpga_lite/20.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File ex1_run_msim_gate_verilog.do already exists - backing up current file as ex1_run_msim_gate_verilog.do.bak3
+Probing transcript
+ModelSim-Altera Info: # Reading pref.tcl
+ModelSim-Altera Info: # do ex1_run_msim_gate_verilog.do
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+ModelSim-Altera Info: # vmap work gate_work 
+ModelSim-Altera Info: # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {ex1.vo}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 21:36:08 on Nov 26,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." ex1.vo 
+ModelSim-Altera Info: # -- Compiling module decoder
+ModelSim-Altera Info: # -- Compiling module hard_block
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	decoder
+ModelSim-Altera Info: # End time: 21:36:08 on Nov 26,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13 {D:/1_ASUS/Documents/GitHub/CompArch/Lab13/alu_decoder.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 21:36:08 on Nov 26,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13" D:/1_ASUS/Documents/GitHub/CompArch/Lab13/alu_decoder.v 
+ModelSim-Altera Info: # -- Compiling module alu_decoder
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	alu_decoder
+ModelSim-Altera Info: # End time: 21:36:08 on Nov 26,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13 {D:/1_ASUS/Documents/GitHub/CompArch/Lab13/testbench.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 21:36:08 on Nov 26,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13" D:/1_ASUS/Documents/GitHub/CompArch/Lab13/testbench.v 
+ModelSim-Altera Info: # -- Compiling module testbench
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	testbench
+ModelSim-Altera Info: # End time: 21:36:08 on Nov 26,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13 {D:/1_ASUS/Documents/GitHub/CompArch/Lab13/main_decoder.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 21:36:08 on Nov 26,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13" D:/1_ASUS/Documents/GitHub/CompArch/Lab13/main_decoder.v 
+ModelSim-Altera Info: # -- Compiling module main_decoder
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	main_decoder
+ModelSim-Altera Info: # End time: 21:36:08 on Nov 26,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13 {D:/1_ASUS/Documents/GitHub/CompArch/Lab13/decoder.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 21:36:08 on Nov 26,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13" D:/1_ASUS/Documents/GitHub/CompArch/Lab13/decoder.v 
+ModelSim-Altera Info: # -- Compiling module decoder
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	decoder
+ModelSim-Altera Info: # End time: 21:36:09 on Nov 26,2020, Elapsed time: 0:00:01
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  testbench
+ModelSim-Altera Info: # vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" testbench 
+ModelSim-Altera Info: # Start time: 21:36:09 on Nov 26,2020
+ModelSim-Altera Info: # Loading work.testbench
+ModelSim-Altera Info: # Loading work.decoder
+ModelSim-Altera Info: # Loading work.main_decoder
+ModelSim-Altera Info: # Loading work.alu_decoder
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (2) for port 'ALUOp'. The port definition is at: D:/1_ASUS/Documents/GitHub/CompArch/Lab13/alu_decoder.v(2).
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /testbench/cu/ahahah File: D:/1_ASUS/Documents/GitHub/CompArch/Lab13/decoder.v Line: 10
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (6) for port 'funct'. The port definition is at: D:/1_ASUS/Documents/GitHub/CompArch/Lab13/alu_decoder.v(3).
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /testbench/cu/ahahah File: D:/1_ASUS/Documents/GitHub/CompArch/Lab13/decoder.v Line: 10
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # do D:/1_ASUS/Documents/GitHub/CompArch/Lab13/Tcl_script1.tcl
+ModelSim-Altera Info: # add wave sim:/testbench/*
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = z ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x20 ALUControl = xxx
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = z ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x22 ALUControl = xxx
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = z ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x24 ALUControl = xxx
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = z ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x25 ALUControl = xxx
+ModelSim-Altera Info: # opcode = 0x00 RegWrite = 1 RegDst = z ALUSrc = 0 Branch = 0 MemWrite = 0 MemtoReg = 0 funct = 0x2a ALUControl = xxx
+ModelSim-Altera Info: # opcode = 0x23 RegWrite = 1 RegDst = z ALUSrc = 1 Branch = 0 MemWrite = 0 MemtoReg = 1 funct = 0x2a ALUControl = xxx
+ModelSim-Altera Info: # opcode = 0x2b RegWrite = 0 RegDst = z ALUSrc = 1 Branch = 0 MemWrite = 1 MemtoReg = 1 funct = 0x2a ALUControl = xxx
+ModelSim-Altera Info: # opcode = 0x04 RegWrite = 0 RegDst = z ALUSrc = 0 Branch = 1 MemWrite = 0 MemtoReg = 1 funct = 0x2a ALUControl = xxx
+ModelSim-Altera Info: # wave zoom full
+ModelSim-Altera Info: # 0 ps
+ModelSim-Altera Info: # 37 ps
+ModelSim-Altera Info: # End time: 21:36:50 on Nov 26,2020, Elapsed time: 0:00:41
+ModelSim-Altera Info: # Errors: 0, Warnings: 2
+Info: NativeLink simulation flow was successful

@@ -1,0 +1,55 @@
+|decoder
+opcode[0] => opcode[0].IN1
+opcode[1] => opcode[1].IN1
+opcode[2] => opcode[2].IN1
+opcode[3] => opcode[3].IN1
+opcode[4] => opcode[4].IN1
+opcode[5] => opcode[5].IN1
+funct[0] => funct[0].IN1
+funct[1] => funct[1].IN1
+funct[2] => funct[2].IN1
+funct[3] => funct[3].IN1
+funct[4] => funct[4].IN1
+funct[5] => funct[5].IN1
+MemtoReg <= main_decoder:hahahha.port1
+MemWrite <= main_decoder:hahahha.port2
+Branch <= main_decoder:hahahha.port3
+ALUSrc <= main_decoder:hahahha.port4
+RegDst <= <GND>
+RegWrite <= main_decoder:hahahha.port6
+ALUControl[0] <= alu_decoder:ahahah.port2
+ALUControl[1] <= alu_decoder:ahahah.port2
+ALUControl[2] <= alu_decoder:ahahah.port2
+
+
+|decoder|main_decoder:hahahha
+opcode[0] => Decoder0.IN5
+opcode[1] => Decoder0.IN4
+opcode[2] => Decoder0.IN3
+opcode[3] => Decoder0.IN2
+opcode[4] => Decoder0.IN1
+opcode[5] => Decoder0.IN0
+MemtoReg <= MemtoReg$latch.DB_MAX_OUTPUT_PORT_TYPE
+MemWrite <= MemWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
+Branch <= Branch$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALUSrc <= ALUSrc$latch.DB_MAX_OUTPUT_PORT_TYPE
+RegDst <= RegDst$latch.DB_MAX_OUTPUT_PORT_TYPE
+RegWrite <= RegWrite$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[0] <= ALUOp[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[1] <= ALUOp[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|decoder|alu_decoder:ahahah
+ALUOp[0] => Decoder0.IN5
+ALUOp[1] => Decoder0.IN4
+ALUOp[2] => Decoder0.IN3
+ALUOp[3] => Decoder0.IN2
+ALUOp[4] => Decoder0.IN1
+ALUOp[5] => Decoder0.IN0
+funct[0] => ~NO_FANOUT~
+funct[1] => ~NO_FANOUT~
+ALUControl[0] <= <GND>
+ALUControl[1] <= <VCC>
+ALUControl[2] <= ALUControl[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/1_ASUS/Documents/GitHub/CompArch/Lab13/simulation/modelsim
+valu_decoder
+Z1 !s110 1606404968
+!i10b 1
+!s100 D42cXVZ<Ko<ezKZfWDO:Z0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I70`c^n_8M_aIP1=2oQAca1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1606400481
+8D:/1_ASUS/Documents/GitHub/CompArch/Lab13/alu_decoder.v
+FD:/1_ASUS/Documents/GitHub/CompArch/Lab13/alu_decoder.v
+!i122 1
+L0 1 34
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1606404968.000000
+!s107 D:/1_ASUS/Documents/GitHub/CompArch/Lab13/alu_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13|D:/1_ASUS/Documents/GitHub/CompArch/Lab13/alu_decoder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13
+Z8 tCvgOpt 0
+vdecoder
+!s110 1606404969
+!i10b 1
+!s100 ^R@GJR0I0Q;QT04a`5DWV3
+R2
+IM`jZg8Y[7bA;mIfPA_T4n3
+R3
+R0
+w1606404913
+8D:/1_ASUS/Documents/GitHub/CompArch/Lab13/decoder.v
+FD:/1_ASUS/Documents/GitHub/CompArch/Lab13/decoder.v
+!i122 4
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/1_ASUS/Documents/GitHub/CompArch/Lab13/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13|D:/1_ASUS/Documents/GitHub/CompArch/Lab13/decoder.v|
+!i113 1
+R6
+R7
+R8
+vhard_block
+R1
+!i10b 1
+!s100 c4m4QQR]0:bNc2jhCTJN;3
+R2
+ISmjcV4zbIc6HoU8V0_J>V1
+R3
+R0
+w1606404956
+8ex1.vo
+Fex1.vo
+!i122 0
+L0 838 45
+R4
+r1
+!s85 0
+31
+R5
+!s107 ex1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ex1.vo|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+.
+R8
+vmain_decoder
+R1
+!i10b 1
+!s100 [jJYEM7I5nCR8VIPPLdYZ1
+R2
+IWBaOoVOD8A?D5_d]bjFdh3
+R3
+R0
+w1606400515
+8D:/1_ASUS/Documents/GitHub/CompArch/Lab13/main_decoder.v
+FD:/1_ASUS/Documents/GitHub/CompArch/Lab13/main_decoder.v
+!i122 3
+L0 1 44
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/1_ASUS/Documents/GitHub/CompArch/Lab13/main_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13|D:/1_ASUS/Documents/GitHub/CompArch/Lab13/main_decoder.v|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+!i10b 1
+!s100 mUYQlin=XO1InTXG0fHeD0
+R2
+IOiAh0XnRBKWAV6I99ZO`U0
+R3
+R0
+w1606404574
+8D:/1_ASUS/Documents/GitHub/CompArch/Lab13/testbench.v
+FD:/1_ASUS/Documents/GitHub/CompArch/Lab13/testbench.v
+!i122 2
+L0 1 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/1_ASUS/Documents/GitHub/CompArch/Lab13/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1_ASUS/Documents/GitHub/CompArch/Lab13|D:/1_ASUS/Documents/GitHub/CompArch/Lab13/testbench.v|
+!i113 1
+R6
+R7
+R8

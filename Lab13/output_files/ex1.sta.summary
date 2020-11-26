@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'main_decoder:hahahha|ALUOp[1]'
+Slack : -5.855
+TNS   : -5.855
+
+Type  : Slow 1200mV 85C Model Setup 'opcode[0]'
+Slack : -3.280
+TNS   : -10.799
+
+Type  : Slow 1200mV 85C Model Hold 'opcode[0]'
+Slack : -0.496
+TNS   : -0.980
+
+Type  : Slow 1200mV 85C Model Hold 'main_decoder:hahahha|ALUOp[1]'
+Slack : 5.501
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'opcode[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'main_decoder:hahahha|ALUOp[1]'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'main_decoder:hahahha|ALUOp[1]'
+Slack : -5.312
+TNS   : -5.312
+
+Type  : Slow 1200mV 0C Model Setup 'opcode[0]'
+Slack : -3.176
+TNS   : -10.161
+
+Type  : Slow 1200mV 0C Model Hold 'opcode[0]'
+Slack : -0.475
+TNS   : -0.955
+
+Type  : Slow 1200mV 0C Model Hold 'main_decoder:hahahha|ALUOp[1]'
+Slack : 5.078
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'opcode[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'main_decoder:hahahha|ALUOp[1]'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'main_decoder:hahahha|ALUOp[1]'
+Slack : -2.638
+TNS   : -2.638
+
+Type  : Fast 1200mV 0C Model Setup 'opcode[0]'
+Slack : -1.427
+TNS   : -3.779
+
+Type  : Fast 1200mV 0C Model Hold 'opcode[0]'
+Slack : -0.162
+TNS   : -0.318
+
+Type  : Fast 1200mV 0C Model Hold 'main_decoder:hahahha|ALUOp[1]'
+Slack : 2.418
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'opcode[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'main_decoder:hahahha|ALUOp[1]'
+Slack : 0.476
+TNS   : 0.000
+
+------------------------------------------------------------
